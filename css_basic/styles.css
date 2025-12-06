@@ -26,3 +26,52 @@ aside {
   overflow-y: auto; /* allow scrolling */
   padding: 20px;
 }
+/* Background + font colors */
+body {
+  background: #eef1f5;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background: #222;
+  color: white;
+  padding: 20px;
+}
+
+/* Make navigation prettier */
+header ul li {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+header ul li a:hover {
+  color: #00aaff;
+}
+
+/* Make article content nicer */
+article {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Make aside visually different */
+aside {
+  background: #fafafa;
+  border-left: 3px solid #ddd;
+}
+
+/* Footer styling */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Logo styling (this class already exists in base.css but we can enhance it) */
+.logo {
+  font-size: 28px;
+}
